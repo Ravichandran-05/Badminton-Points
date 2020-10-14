@@ -1,0 +1,48 @@
+#head {
+    background-color: grey;
+}
+
+.sub {
+    padding: 25px;
+    background-color: grey;
+    color: black;
+    border: none;
+    cursor: pointer;
+    width: 180px;
+    float: right;
+    margin: 0px;
+    font-size: larger;
+    font-weight: bold;
+    text-shadow: gray;
+}
+
+.sub:hover {
+    background-color: rgb(40, 179, 221);
+    color: white;
+}
+
+.year {
+    background-color: rgb(12, 150, 12);
+    padding: 25px;
+    width: 270px;
+    text-align: center;
+    margin: 0px;
+    font-size: larger;
+    font-weight: bold;
+    text-shadow: gray;
+    border: none;
+    pointer-events: none;
+}
+
+.option {
+    display: none;
+    position: absolute;
+    background-color: indigo;
+    width: 60px;
+    z-index: 1;
+}
+
+.option a:hover {
+    background-color: white;
+    color: black;
+}
