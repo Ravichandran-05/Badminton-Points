@@ -1,0 +1,94 @@
+#counter2 {
+    margin-left: 28%;
+}
+
+#counter1 {
+    margin-left: 14%;
+}
+
+.btn {
+    width: 90%;
+    font-weight: bold;
+}
+
+h3 {
+    color: rgb(28, 189, 100) !important;
+}
+
+.fa-info-circle {
+    color: white;
+}
+
+h5 {
+    color: rgb(0, 0, 0) !important;
+}
+
+ol {
+    color: black !important;
+}
+
+#summary {
+    background-color: rgb(28, 189, 100);
+    padding: 8px 6px;
+}
+
+.team-name {
+    background-color: rgba(121, 121, 121, 0.555) !important;
+}
+
+#t1 {
+    margin-left: 15%;
+}
+
+.teama {
+    color: rgb(255, 89, 255);
+}
+
+.teamb {
+    color: rgb(52, 198, 255);
+}
+
+#t2 {
+    margin-right: 15%;
+}
+
+.t1 {
+    margin-left: 15%;
+}
+
+.t2 {
+    margin-right: 15%;
+}
+
+.btn-primary {
+    margin-top: 20px;
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+    display: inline;
+}
+
+#result {
+    margin-left: -10px !important;
+}
+
+.btn-info {
+    margin-top: 20px;
+    width: 35%;
+    float: left;
+    display: inline;
+    margin-left: 10%;
+}
+
+.table-bordered {
+    margin-top: 40px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 8px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
