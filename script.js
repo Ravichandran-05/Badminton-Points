@@ -101,7 +101,7 @@ function displayDetails(event) {
         alert("Team A won the match by " + dif1 + " points...");
     } else {
         var dif2 = num2 - num1;
-        alert("Team B won the match by" + dif2 + " points...");
+        alert("Team B won the match by " + dif2 + " points...");
     }
     tableData++;
     n++;
@@ -139,7 +139,7 @@ function displayDetails1(event) {
         alert("Team B won the match by " + dif11 + " points...");
     } else {
         var dif21 = num21 - num11;
-        alert("Team C won the match by" + dif21 + " points...");
+        alert("Team C won the match by " + dif21 + " points...");
     }
     tableData++;
     n++;
@@ -177,7 +177,7 @@ function displayDetails2(event) {
         alert("Team C won the match by " + dif12 + " points...");
     } else {
         var dif22 = num22 - num12;
-        alert("Team A won the match by" + dif22 + " points...");
+        alert("Team A won the match by " + dif22 + " points...");
     }
     tableData++;
     n++;
