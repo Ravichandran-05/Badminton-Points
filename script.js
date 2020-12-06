@@ -170,3 +170,18 @@ function resett2() {
     sum12 = 0;
     sum22 = 0;
 }
+
+function junction() {
+    var randomNumber = Math.floor(Math.random() * 2) + 1;
+
+    if (randomNumber == 1) {
+        document.getElementById("submitt").src = "odd.png";
+
+    } else {
+        document.getElementById("submitt").src = "even.png";
+    }
+}
+
+function junction1() {
+    document.getElementById("submitt").src = "toss.jpg";
+}
