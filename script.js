@@ -96,6 +96,13 @@ function displayDetails(event) {
     cell2.innerHTML = num2;
     cell1.style.textAlign = "center";
     cell2.style.textAlign = "center";
+     if (num1 > num2) {
+        var dif1 = num1 - num2;
+        alert("Team A won the match by " + dif1 + " points...");
+    } else {
+        var dif2 = num2 - num1;
+        alert("Team B won the match by" + dif2 + " points...");
+    }
     tableData++;
     n++;
     match.reset();
@@ -127,6 +134,13 @@ function displayDetails1(event) {
     cell2.innerHTML = num21;
     cell1.style.textAlign = "center";
     cell2.style.textAlign = "center";
+     if (num11 > num21) {
+        var dif11 = num11 - num21;
+        alert("Team B won the match by " + dif11 + " points...");
+    } else {
+        var dif21 = num21 - num11;
+        alert("Team C won the match by" + dif21 + " points...");
+    }
     tableData++;
     n++;
     match.reset();
@@ -158,6 +172,13 @@ function displayDetails2(event) {
     cell2.innerHTML = num22;
     cell1.style.textAlign = "center";
     cell2.style.textAlign = "center";
+ if (num12 > num22) {
+        var dif12 = num12 - num22;
+        alert("Team C won the match by " + dif12 + " points...");
+    } else {
+        var dif22 = num22 - num12;
+        alert("Team A won the match by" + dif22 + " points...");
+    }
     tableData++;
     n++;
     match.reset();
