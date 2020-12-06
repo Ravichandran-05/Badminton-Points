@@ -11,8 +11,44 @@
     font-weight: bold;
 }
 
+
+#submitt {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-top: 6%;
+    border: none;
+    outline: none;
+    background: url(toss.jpg);
+}
+
+#response {
+    text-align: center;
+    margin-right: -20px;
+    margin-top: 3%;
+}
+
+.btn-light {
+    margin-top: 20px;
+    width: 23%;
+    margin-bottom: 5%;
+}
+
+#submit {
+    float: right;
+    display: inline;
+    margin-right: 17%;
+}
+
+#submi {
+    float: left;
+    display: inline;
+    margin-left: 20%;
+}
+
 h3 {
-    color: rgb(28, 189, 100) !important;
+    color: rgba(15, 15, 15, 0.808) !important;
 }
 
 .fa-info-circle {
