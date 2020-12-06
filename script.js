@@ -193,8 +193,7 @@ function resett2() {
 }
 
 function junction() {
-    var i=5;
-    var randomNumber = Math.floor(Math.random() * i) + 1;
+       var randomNumber = Math.floor(Math.random() * 2) + 1;
 
     if (randomNumber == 1) {
         document.getElementById("submitt").src = "odd.png";
