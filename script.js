@@ -206,3 +206,49 @@ function junction() {
 function junction1() {
     document.getElementById("submitt").src = "toss.jpg";
 }
+function displayDetails3(event) {
+    var teama = sum1 + sum22;
+    var teamb = sum2 + sum11;
+    var teamc = sum21 + sum12;
+    if (teama > teamb && teama > teamc) {
+        event.preventDefault();
+        var match = document.getElementById("match-points3")
+        var a = "Team A";
+        var table = document.getElementById("myrow3");
+        var row = table.insertRow(1);
+        var cell1 = row.insertCell(0);
+        cell1.innerHTML = a;
+
+        cell1.style.textAlign = "center";
+        cell2.style.textAlign = "center";
+         tableData++;
+        match.reset();
+
+    } else if (teamb > teamc && teamb > teama) {
+        event.preventDefault();
+        var match = document.getElementById("match-points3")
+        var b = "Team B";
+        var table = document.getElementById("myrow3");
+        var row = table.insertRow(1);
+        var cell1 = row.insertCell(0);
+        cell1.innerHTML = b;
+
+        cell1.style.textAlign = "center";
+        cell2.style.textAlign = "center";
+        tableData++;
+        match.reset();
+    } else {
+        event.preventDefault();
+        var match = document.getElementById("match-points3")
+        var c = "Team C";
+        var table = document.getElementById("myrow3");
+        var row = table.insertRow(1);
+        var cell1 = row.insertCell(0);
+        cell1.innerHTML = c;
+
+        cell1.style.textAlign = "center";
+        cell2.style.textAlign = "center";
+        tableData++;
+        match.reset();
+    }
+}
