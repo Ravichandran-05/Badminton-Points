@@ -237,7 +237,7 @@ function displayDetails3(event) {
         cell2.style.textAlign = "center";
         tableData++;
         match.reset();
-    } else {
+    } else if (teamc > teama && teamc > teamb) {
         event.preventDefault();
         var match = document.getElementById("match-points3")
         var c = "Team C";
@@ -250,5 +250,18 @@ function displayDetails3(event) {
         cell2.style.textAlign = "center";
         tableData++;
         match.reset();
+    }
+     else {
+        alert("Please start the match to declare the winner !!");
+        event.preventDefault();
+        var match = document.getElementById("match-points3")
+        var q = " ";
+        var table = document.getElementById("myrow3");
+        var row = table.insertRow(1);
+        var cell1 = row.insertCell(0);
+        cell1.innerHTML = q;
+
+        cell1.style.textAlign = "center";
+        cell2.style.textAlign = "center";
     }
 }
