@@ -128,3 +128,15 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
+.btn-s-1 {
+    background-color: rgb(28, 189, 100) !important;
+    text-align: center !important;
+    color: black !important;
+    font-weight: bold !important;
+    width: 100% !important;
+}
+
+.fa-trophy {
+    color: rgb(255, 255, 85);
+}
